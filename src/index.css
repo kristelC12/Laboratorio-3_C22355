@@ -33,7 +33,7 @@ body {
 .c-box { grid-area: c; height: 150px; }
 .d-box { grid-area: d; height: 82px;  border-top: var(--border); }
 
-@media (max-width: 711px) {
+@media (max-width: 767px) {
     .layout {
         width: min(88vw, 260px);
         grid-template-columns: 1fr;
@@ -43,7 +43,7 @@ body {
     .d-box { height: 84px; border: 0; }
 }
 
-@media (min-width: 712px) and (max-width: 1180px) {
+@media (min-width: 768px) and (max-width: 1180px) {
     .layout { grid-template-areas: "a a d" "b c d"; grid-template-columns: 1fr 1fr 2fr; }
     .a-box { height: 84px; border-bottom: var(--border); }
     .b-box, .c-box { height: 84px; }
